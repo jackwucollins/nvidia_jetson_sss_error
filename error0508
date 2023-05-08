@@ -1,0 +1,15 @@
+collins@ubuntu:~/Downloads$ sudo apt install ./framos-common-driver_2.15.0.0_arm64.deb 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Note, selecting 'framos-common-driver' instead of './framos-common-driver_2.15.0.0_arm64.deb'
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ framos-common-driver : PreDepends: nvidia-l4t-core (< 35.3.0-0) but 35.3.1-20230319081403 is to be installed
+                        Depends: nvidia-l4t-kernel (< 5.10.104-tegra-35.3.0-0) but 5.10.104-tegra-35.3.1-20230319081403 is to be installed
+E: Unable to correct problems, you have held broken packages.
